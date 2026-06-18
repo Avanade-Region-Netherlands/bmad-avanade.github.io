@@ -57,14 +57,16 @@ bmad-avanade-solutioning/
 
 ## Installation
 
-This module is distributed as a BMAD module. Install it with the BMAD method CLI:
+This module is distributed as a BMAD custom module hosted in its own Git repository. Install it with the BMAD method installer, pointing `--custom-source` at the repository:
 
 ```bash
-npx bmad-method --install-module bmad-avanade-solutioning
+npx bmad-method install --custom-source https://github.com/Avanade-Region-Netherlands/bmad-avanade-solutioning
 ```
 
-After installation, the module's assets are placed in your project's `_bmad/` directory and are immediately available to BMAD agents.
+The installer clones the repository, discovers the module's skills, and lets you select them. After installation, the module's assets are placed in your project's `_bmad/` directory and are immediately available to BMAD agents.
+
+> Avanade employees only: the repository is internal, so you must be authenticated to GitHub with access to the `Avanade-Region-Netherlands` organisation for the clone to succeed.
 
 ## Related Modules
 
-- [Core](/modules/core/) — shared agents and workflows that Solutioning builds on
+- [Core](/bmad-avanade/modules/core/) — shared agents and workflows that Solutioning builds on

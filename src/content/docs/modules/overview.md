@@ -5,7 +5,7 @@ sidebar:
   order: 1
 ---
 
-This page lists all available BMAD Avanade modules. Each module extends the core [BMAD methodology](https://github.com/bmad-ai/bmad-method) with Avanade-specific practices and knowledge.
+This page lists all available BMAD Avanade modules. Each module extends the core [BMAD methodology](https://github.com/bmad-code-org/BMAD-METHOD) with Avanade-specific practices and knowledge.
 
 ## What is a BMAD Module?
 
@@ -22,8 +22,8 @@ Modules are designed to be used with any AI coding assistant that supports syste
 
 | Module | Description | Status | Repository |
 |--------|-------------|--------|------------|
-| [Core](/modules/core/) | Shared agents and workflows useful in every scenario, including the **Otto** repo onboarder | Stable | [bmad-avanade-core](https://github.com/Avanade-Region-Netherlands/bmad-avanade-core) |
-| [Solutioning](/modules/solutioning/) | Custom agents for Statements of Work, Sales Pitches, and Pricing Proposals | Beta | [bmad-avanade-solutioning](https://github.com/Avanade-Region-Netherlands/bmad-avanade-solutioning) |
+| [Core](/bmad-avanade/modules/core/) | Shared agents and workflows useful in every scenario, including the **Otto** repo onboarder | Stable | [bmad-avanade-core](https://github.com/Avanade-Region-Netherlands/bmad-avanade-core) |
+| [Solutioning](/bmad-avanade/modules/solutioning/) | Custom agents for Statements of Work, Sales Pitches, and Pricing Proposals | Beta | [bmad-avanade-solutioning](https://github.com/Avanade-Region-Netherlands/bmad-avanade-solutioning) |
 
 > **Note:** Repository links lead to internal Avanade repositories. Avanade employees with GitHub access can view the source code; external visitors will see a "Repository not found" page.
 
