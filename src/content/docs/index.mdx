@@ -1,0 +1,75 @@
+---
+title: BMAD Avanade Modules
+description: Overview of all BMAD Avanade modules — AI-powered development methodology modules built by Avanade Netherlands.
+template: splash
+hero:
+  tagline: AI-powered BMAD methodology modules, built by Avanade Netherlands. Accelerate your software delivery with structured, AI-driven development practices.
+  image:
+    file: ../../assets/logo-light.svg
+  actions:
+    - text: Explore Modules
+      link: /modules/overview/
+      icon: right-arrow
+      variant: primary
+    - text: Learn about BMAD
+      link: https://github.com/bmad-ai/bmad-method
+      icon: external
+      variant: minimal
+---
+
+import { Card, CardGrid, LinkCard } from '@astrojs/starlight/components';
+
+## What is BMAD Avanade?
+
+**BMAD** (Business-Minded AI Development) is an open-source AI-powered development methodology that combines structured role-based AI agents with a proven software delivery workflow. **BMAD Avanade** extends the core BMAD method with Avanade-specific best practices, templates, and integrations — tailored to Avanade's ways of working and technology landscape.
+
+Each module is a self-contained extension that plugs into the BMAD agent framework, giving your AI copilot deep expertise in a specific domain.
+
+> **Note:** The source repositories for each module are internal to Avanade. Avanade employees with the appropriate access can follow the repository links to view the full source code, contribute, and raise issues.
+
+## Available Modules
+
+<CardGrid>
+  <Card title="📋 PM Agent" icon="document">
+    AI-powered Product Manager agent with Avanade delivery methodology built in. Generates project charters, user stories, and roadmaps aligned with Avanade standards.
+    
+    [View module →](/modules/pm-agent/)
+  </Card>
+
+  <Card title="🏗️ Architect Agent" icon="puzzle">
+    Solution Architect agent trained on Avanade architecture patterns and Microsoft technology stack. Produces ADRs, system design docs, and tech stack recommendations.
+    
+    [View module →](/modules/architect-agent/)
+  </Card>
+
+  <Card title="💻 Developer Agent" icon="laptop">
+    Developer agent with Avanade coding standards and best practices. Generates clean, production-ready code following Avanade guidelines.
+    
+    [View module →](/modules/developer-agent/)
+  </Card>
+
+  <Card title="🔍 QA Agent" icon="approve-check-circle">
+    Quality Assurance agent with Avanade testing frameworks and standards. Creates test plans, test cases, and automated test scripts.
+    
+    [View module →](/modules/qa-agent/)
+  </Card>
+</CardGrid>
+
+## How It Works
+
+<CardGrid stagger>
+  <Card title="1. Install the module" icon="down-caret">
+    Add the BMAD Avanade module to your project using the BMAD CLI or by copying the agent configuration files.
+  </Card>
+  <Card title="2. Configure your AI copilot" icon="setting">
+    Point your AI assistant (GitHub Copilot, Cursor, Claude, etc.) to the BMAD agent configuration.
+  </Card>
+  <Card title="3. Start building" icon="rocket">
+    Interact with your AI copilot using the structured BMAD methodology, guided by Avanade best practices.
+  </Card>
+</CardGrid>
+
+## Resources
+
+<LinkCard title="BMAD Method (open source)" href="https://github.com/bmad-ai/bmad-method" description="The upstream open-source BMAD methodology this project is based on." />
+<LinkCard title="Avanade on GitHub" href="https://github.com/Avanade-Region-Netherlands" description="Avanade Netherlands GitHub organisation — internal repositories visible to Avanade employees." />
