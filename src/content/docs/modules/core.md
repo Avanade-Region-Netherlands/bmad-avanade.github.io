@@ -46,14 +46,45 @@ bmad-avanade-core/
 
 ## Installation
 
-This module is distributed as a BMAD module. Install it with the BMAD method CLI:
+### Prerequisites
 
-```bash
-npx bmad-method --install-module bmad-avanade-core
+The BMAD installer runs via `npx` and some skills use Python and `uv`:
+
+- [Node.js](https://nodejs.org/) v20.12+ (bundles `npx`)
+- [Python](https://www.python.org/) 3.10+
+- [uv](https://docs.astral.sh/uv/getting-started/installation/)
+
+Windows quick install:
+
+```powershell
+winget install OpenJS.NodeJS.LTS
+winget install Python.Python.3.12
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 ```
 
-After installation, the module's assets are placed in your project's `_bmad/` directory and are immediately available to BMAD agents.
+macOS / Linux quick install:
+
+```bash
+# Node.js & Python via Homebrew (macOS) or your package manager
+brew install node python
+# uv
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+### Install the module
+
+This module is distributed as a BMAD custom module hosted in its own Git repository. Install it with the BMAD method installer, pointing `--custom-source` at the repository and selecting **GitHub Copilot** as the tool:
+
+```bash
+npx bmad-method install \
+  --custom-source https://github.com/Avanade-Region-Netherlands/bmad-avanade-core \
+  --tools github-copilot
+```
+
+The installer clones the repository, discovers the module's skills, and lets you select them. After installation, the module's assets are placed in your project's `_bmad/` directory and are immediately available to GitHub Copilot.
+
+> Avanade employees only: the repository is internal, so you must be authenticated to GitHub with access to the `Avanade-Region-Netherlands` organisation for the clone to succeed.
 
 ## Related Modules
 
-- [Solutioning](/modules/solutioning/) — builds on Core for SoW, pricing, and sales-pitch workflows
+- [Solutioning](/bmad-avanade/modules/solutioning/) — builds on Core for SoW, pricing, and sales-pitch workflows
