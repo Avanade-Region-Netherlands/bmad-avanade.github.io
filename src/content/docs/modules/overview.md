@@ -22,10 +22,8 @@ Modules are designed to be used with any AI coding assistant that supports syste
 
 | Module | Description | Status | Repository |
 |--------|-------------|--------|------------|
-| [PM Agent](/modules/pm-agent/) | AI Product Manager with Avanade delivery methodology | Stable | [bmad-avanade-pm-agent](https://github.com/Avanade-Region-Netherlands/bmad-avanade-pm-agent) |
-| [Architect Agent](/modules/architect-agent/) | Solution Architect with Avanade architecture patterns | Stable | [bmad-avanade-architect-agent](https://github.com/Avanade-Region-Netherlands/bmad-avanade-architect-agent) |
-| [Developer Agent](/modules/developer-agent/) | Developer with Avanade coding standards | Beta | [bmad-avanade-developer-agent](https://github.com/Avanade-Region-Netherlands/bmad-avanade-developer-agent) |
-| [QA Agent](/modules/qa-agent/) | QA Engineer with Avanade testing standards | Beta | [bmad-avanade-qa-agent](https://github.com/Avanade-Region-Netherlands/bmad-avanade-qa-agent) |
+| [Core](/modules/core/) | Shared agents and workflows useful in every scenario, including the **Otto** repo onboarder | Stable | [bmad-avanade-core](https://github.com/Avanade-Region-Netherlands/bmad-avanade-core) |
+| [Solutioning](/modules/solutioning/) | Custom agents for Statements of Work, Sales Pitches, and Pricing Proposals | Beta | [bmad-avanade-solutioning](https://github.com/Avanade-Region-Netherlands/bmad-avanade-solutioning) |
 
 > **Note:** Repository links lead to internal Avanade repositories. Avanade employees with GitHub access can view the source code; external visitors will see a "Repository not found" page.
 
