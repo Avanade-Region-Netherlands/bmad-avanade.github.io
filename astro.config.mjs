@@ -3,7 +3,8 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-  site: 'https://bmad-avanade.github.io',
+  site: 'https://avanade-region-netherlands.github.io',
+  base: '/bmad-avanade',
   integrations: [
     starlight({
       title: 'BMAD Avanade',
